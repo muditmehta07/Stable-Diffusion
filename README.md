@@ -7,6 +7,7 @@
 <p float=left>
   <img src="./media/medieval darth vader.png" height=360px>
   <img src="./media/pokemon digital art.png" height=360px>
+  <img src="./media/medieval star wars.png" height=360px>
 </p>
 
 ## Setup & Installation
