@@ -4,8 +4,8 @@
 
 # Examples
 
-<img src="./media/medieval darth vader.png" align=center height=50px>
-<img src="./media/pokemon digital art.png" align=center height=50px>
+<img src="./media/medieval darth vader.png" style="float: left;" height=360px>
+<img src="./media/pokemon digital art.png" style="float: left;" height=360px>
 
 ## Setup & Installation
 
