@@ -2,6 +2,11 @@
 
 > This is an AI Art generator that utilizes `stable-diffusion-v1.5`
 
+# Examples
+
+<img src="./media/medieval darth vader.png">
+<img src="./media/pokemon digital art.png">
+
 ## Setup & Installation
 
 ### Install Diffusers
