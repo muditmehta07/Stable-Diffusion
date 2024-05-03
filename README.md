@@ -13,18 +13,18 @@
 ## Setup & Installation
 
 ### Install Diffusers
-```bash
+```console
 conda install diffusers
 ```
 
 ### Install PyTorch
-```bash
+```shell
 conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
 ```
 
 ### Install Stable-Diffusion-V1.5
 > The installation is `25.9 GB`
 
-```bash
+```sh
 git clone https://huggingface.co/runwayml/stable-diffusion-v1-5
 ```
