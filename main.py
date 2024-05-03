@@ -4,8 +4,8 @@ from torch import autocast
 from diffusers import StableDiffusionPipeline
 torch.cuda.empty_cache()
 
-SDV5_MODEL_PATH = "./stable-diffusion-v1-5"
-SAV_PATH = "./media"
+SDV5_MODEL_PATH = "stable-diffusion-v1-5"
+SAV_PATH = "media"
 
 prompt = input("Prompt to generate image: ")
 
@@ -15,15 +15,12 @@ height, width = 512, 720
 def uniquify(path):
     filename, extension = os.path.splitext(path)
     counter = 1
-
     while os.path.exists(path):
         path = f"{filename}({counter}){extension}"
         counter+=1
-
     return path
 
 print(f"Characters: {len(prompt)} -- limit: 200")
-
 pipe = StableDiffusionPipeline.from_pretrained(SDV5_MODEL_PATH)
 pipe = pipe.to('cpu')
 
