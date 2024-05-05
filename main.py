@@ -1,10 +1,12 @@
 import os
+os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
+
 import torch
 from torch import autocast
 from diffusers import StableDiffusionPipeline
 torch.cuda.empty_cache()
 
-SDV5_MODEL_PATH = "stable-diffusion-v1-5"
+SDV5_MODEL_PATH = "D:\Models\stable-diffusion-v1-5"
 SAV_PATH = "media"
 
 prompt = input("Prompt to generate image: ")
