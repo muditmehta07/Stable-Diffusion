@@ -80,7 +80,7 @@ def render_prompt():
             else:
                 image = pipe(prompt).images[0]
 
-            image_path = uniquify(os.path.join(SAV_PATH, shortened_prompt + '.png')
+            image_path = uniquify(os.path.join(SAV_PATH, shortened_prompt + '.png'))
             print(image_path)
             image.save(image_path)
     print("Render Finished")
