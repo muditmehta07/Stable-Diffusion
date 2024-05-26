@@ -1,6 +1,21 @@
 art_styles = {
     'None': '',
-    '3D render': 'unreal engine render, octane render, 4k, depth of field, ultra realistic',
+    '3D Render': 'unreal engine render, octane render, 4k, depth of field, ultra realistic',
     'Digital Art': 'digital art, digital painting',
-    'Fine Art': 'oil painting, golden ratio, painting'
+    'Fine Art': 'oil painting, golden ratio, painting',
+    'Anime': 'anime style, high detail, cel-shading, vibrant colors',
+    'Cartoon': 'cartoon style, exaggerated features, bold lines, bright colors',
+    'Watercolor': 'watercolor painting, soft edges, muted colors, fluid transitions',
+    'Surrealism': 'surrealism, dream-like, bizarre, fantastical elements',
+    'Photorealism': 'photorealism, extremely detailed, life-like, high resolution',
+    'Impressionism': 'impressionist painting, loose brushwork, light and color focus',
+    'Concept Art': 'concept art, character design, environment design, fantasy elements',
+    'Abstract': 'abstract art, non-representational, bold shapes and colors',
+    'Comic Book': 'comic book style, bold outlines, action scenes, dramatic shading',
+    'Retro': 'retro style, vintage, old-school, 80s aesthetics',
+    'Pixel Art': 'pixel art, low resolution, video game aesthetics, blocky visuals',
+    'Steampunk': 'steampunk style, Victorian era, mechanical, gears and cogs',
+    'Cyberpunk': 'cyberpunk style, futuristic, neon lights, dystopian',
+    'Fantasy': 'fantasy art, mythical creatures, magical settings, epic scenes',
+    'Sci-Fi': 'sci-fi art, futuristic technology, space exploration, alien worlds'
 }

@@ -19,8 +19,7 @@ height, width = 512, 720
 
 device_type = 'cuda'
 low_vram = True
-
-negative_prompt = "bad, low quality"
+negative_prompt = "bad, low quality, blurry, pixelated, deformed, disfigured, grainy, low resolution, out of focus, overexposed, underexposed, oversaturated, undersaturated, noisy, poor lighting, incorrect anatomy, unnatural, distorted, cropped"
 
 
 def uniquify(path):

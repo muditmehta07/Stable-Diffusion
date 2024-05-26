@@ -1,4 +1,4 @@
-# Stable Diffusion Art Generation
+# Stable Diffusion AI Art Generation
 
 This project generates images based on text prompts using the Stable Diffusion model.
 
@@ -19,7 +19,7 @@ This project utilizes the Stable Diffusion model to generate images from text pr
 1. **Clone the repository**:
     ```sh
     git clone https://github.com/muditmehta07/Stable-Diffusion.git
-    cd your-repo-name
+    cd Stable-Diffusion
     ```
 
 2. **Install the required packages**:
@@ -34,7 +34,7 @@ This project utilizes the Stable Diffusion model to generate images from text pr
 
 1. **Run the script**:
     ```sh
-    python script_name.py
+    python main.py
     ```
 
 2. **Enter the prompt when prompted**:
