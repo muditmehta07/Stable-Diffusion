@@ -1,1 +1,1 @@
-# Stable Diffusion Project 🎨
+# Stable Diffusion
