@@ -27,8 +27,11 @@ This project utilizes the Stable Diffusion model to generate images from text pr
     pip install torch diffusers
     ```
 
-3. **Download and place the model files**:
-    Ensure you have the model files in the specified path (`SDV5_MODEL_PATH`).
+3. **Download the Stable Diffusion v1.5 Model**:
+    ```sh
+    git lfs install
+    git clone https://huggingface.co/runwayml/stable-diffusion-v1-5
+    ```
 
 ## Usage
 
