@@ -1,4 +1,4 @@
-# Stable Diffusion AI Art Generation
+# Stable Diffusion
 
 This project generates images based on text prompts using the Stable Diffusion model.
 
