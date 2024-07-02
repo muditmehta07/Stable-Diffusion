@@ -3,7 +3,7 @@
 This project generates images based on text prompts using the Stable Diffusion model.
 
 Checkout the project's resultant AI Art:
-https://www.behance.net/muditmehta1
+https://www.behance.net/muditmehta07
 
 ## Table of Contents
 - [Introduction](#introduction)
